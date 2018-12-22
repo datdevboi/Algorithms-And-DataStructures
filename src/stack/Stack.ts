@@ -14,7 +14,7 @@ class Stack<T> implements IStack<T> {
     this.stack.push(item);
   }
 
-  pop() {
+  pop(): T | undefined {
     return this.stack.pop();
   }
 }
